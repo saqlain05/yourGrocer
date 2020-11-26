@@ -1,0 +1,96 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  /* background: #EEE; */
+  background: transparent;
+  margin-top: 1rem;
+  /* z-index: -1; */
+
+}
+
+.carousel-cell {
+  width: 16%;
+  height: 50px;
+  margin-right: 1px;
+  /* background: #8C8; */
+  background: transparent;
+  /* border-radius: 5px; */
+  counter-increment: carousel-cell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.carousel-cell.is-selected {
+  background: transparent;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(carousel-cell); */
+  line-height: 20px;
+  font-size: 8px;
+  color: white;
+}
+
+
+.carousel2 {
+    background: transparent;
+    margin-top: 2.5rem;
+  }
+  
+  .carousel-cell2 {
+    width: 66%;
+    height: 150px;
+    margin-right: 10px;
+    background: yellow;
+    /* background: white; */
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  .carousel-cell2 >img {
+      width: 100%;
+      height: 100%;
+   
+  }
+  
+  /* cell number */
+  .carousel-cell2:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .carousel3 {
+    background: #EEE;
+  }
+  
+  .carousel-cell3 {
+    width: 38%;
+    height: 150px;
+    margin-right: 10px;
+    /* background: #8C8; */
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  /* .carousel-cell3.is-selected {
+    /* background: #ED2; */
+  } */
+  
+  /* cell number */
+  .carousel-cell3:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
