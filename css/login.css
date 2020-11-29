@@ -71,6 +71,10 @@
     padding-left: .2rem;
     margin: .5rem 0;
 }
+.form>label{
+    color: #5F5F5F;
+    font-size: .9rem;
+}
 .forgot_password{
     text-align: right;
     color: #A3ACB1;
@@ -149,4 +153,62 @@
 }
 .login_small_location{
     font-size: .72rem;
+}
+
+.login_button_chooseLocation >p{
+    color: white;
+}
+
+.select{
+
+}
+
+.select >h6{
+    color: #5F5F5F;
+}
+.text{
+    width: 95%;
+    height: 6vh;
+    border: 2px solid #5F5F5F;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+.text >p{
+    font-size: .9rem;
+    margin-left: .5rem;
+    background-color: #F9F9F9;
+    color: #5F5F5F;
+}
+.select >h5{
+    font-size: .9rem;
+    color: #1D1D1D;
+    margin: 1rem 0;
+}
+.select >h4{
+    font-size: .9rem;
+    color: #2CD1A9;
+    margin: 1rem 0;
+}
+.select >h6{
+    font-size: .7rem;
+    color: #A3ACB1;
+    margin: 1rem 0;
+}
+.back{
+    padding-top: 1rem;
+}
+.back>a{
+    background-color: #fff;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .51rem;
+    margin-left: 1rem;
+    text-decoration: none;
 }

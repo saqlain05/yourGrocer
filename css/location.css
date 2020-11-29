@@ -1,0 +1,105 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.location_back{
+    text-decoration: none;
+    color: white;
+}
+.location_back > p{
+    background-color: #517D14;
+    padding: .6rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 5vh;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.searchInput{
+    width: 80%;
+    margin:  0 .2rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: .5rem;
+    background-color: transparent;
+
+}
+.searchIcon{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchButton{
+    display: none;
+}
+
+.current_location {
+    width: 85%;
+    margin: 1.2rem auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.current_location > i{
+    color: #23B793;
+    font-size: 1.2rem;
+}
+.location_title >h2{
+    color: #23B793;
+    font-size: 1.2rem;
+
+}
+.location_title >p{
+    color: #B1B1B1;
+    font-size: 1rem;
+    margin-top: -.8rem;
+}
+hr{
+    width: 85%;
+    margin: auto;
+}
+
+.address{
+    width: 90%;
+    margin: auto;
+}
+.address >h3{
+    color: #1D1D1D;
+}
+.address >h4{
+    color: #B1B1B1;
+}
+.login_form_button_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+    align-items: center;
+}
+.login_form_button_div > p{
+    color: #A3ACB1;
+    font-size: .75rem;
+}
+
+.login_form_button_div > p >b >a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
