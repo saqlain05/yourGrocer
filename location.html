@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Location | YourGrocers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/location.css">
 </head>
 <body>
-    
+    <div class="location_main_div">
+        <div class="back">
+            <a href="basicInfo.html" class="location_back"> <p class="fa fa-chevron-left"></p> </a>
+        </div>
+        
+        <div class="search">
+            <input class="searchInput" type="text" placeholder="search for area, streat name...." >
+            <p class="searchIcon"><i class="fa fa-search"></i></p>
+            <button class="searchButton">search</button>
+        </div>
+
+        <div class="current_location">
+            <i class="fa fa-location-arrow"></i>
+
+            <div class="location_title">
+                <h2>Current Location</h2>
+                <p>Using GPS</p>
+            </div>
+            
+        </div>
+        <hr>
+
+        <div class="address">
+            <h3>Saved Address</h3>
+            <h4>No Saved Address</h4>
+        </div>
+        
+        
+        <div class="login_form_button_div">
+            <p class="dontHave"> <b> <a href="signup.html">Help.?</a> </b></p>
+            <!-- <button class="login_button">Verify</button> -->
+        </div>
+    </div>
 </body>
 </html>
