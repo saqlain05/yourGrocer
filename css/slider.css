@@ -74,16 +74,22 @@ body { font-family: sans-serif; }
   
   .carousel-cell3 {
     width: 38%;
-    height: 150px;
+    /* height: 150px; */
     margin-right: 10px;
     /* background: #8C8; */
     border-radius: 5px;
     counter-increment: carousel-cell;
   }
   
-  /* .carousel-cell3.is-selected {
-    /* background: #ED2; */
-  } */
+.hello{
+ 
+}
+.hello>p{
+color: #fff;
+margin-left: .81rem;
+font-size: .85rem;
+font-weight: 700;
+}
   
   /* cell number */
   .carousel-cell3:before {
