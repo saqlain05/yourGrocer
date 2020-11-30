@@ -54,12 +54,16 @@ a{
     font-size: .9rem;
     color: #2CD1A9;
 }
+.general>i{
+    color: #1D1D1D;
+    text-decoration: none;
+}
 .i{
     font-size: 1.2rem;
     color: #2cd1a9;
 }
 .feedback{
-    margin-top: 8rem;
+    margin-top: 5rem;
     margin-left: 1rem;
 }
 
