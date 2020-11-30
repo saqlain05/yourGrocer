@@ -41,12 +41,12 @@ body { font-family: sans-serif; }
 
 .carousel2 {
     background: transparent;
-    margin-top: 2.5rem;
+    margin-top: .5rem;
   }
   
   .carousel-cell2 {
-    width: 66%;
-    height: 150px;
+    width: 96%;
+    /* height: 150px; */
     margin-right: 10px;
     background: yellow;
     /* background: white; */

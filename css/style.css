@@ -5,11 +5,12 @@
 
 .header{
     width: 100%;
-    height: 12vh;
+    height: 10vh;
     background-color: white;
     color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
     top: 0;
     position: fixed;
     z-index: 100;
@@ -35,12 +36,19 @@ a{
     color: white;
     border: none;
 }
+.mainImg{
+    width: 40vw;
+}
+.location{
+    color: #B1B1B1;
+    font-size: 14px;
+}
 
 .sidebar{
     position: fixed;
     left: -250px;
     width: 250px;
-    height: 100%;
+    height: 150%;
     /* background-color: #042331; */
     background-color: #517D14;
 }
@@ -89,24 +97,26 @@ label #btn, label #cancel{
     height: 35px;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 label #btn{
     left: 15px;
-    top: 15px;
-    font-size: 20px;
+    top: 10px;
+    font-size: 15px;
     color: white;
-    padding: 6px 12px;
+    padding: 6px 10px;
     transition: all .5s;
 }
 label #cancel{
     z-index: 111;
-    left: -195px;
-    top: 17px;
-    font-size: 30px;
-    color: hsl(200, 84%, 25%);
-    padding: 4px 9px;
+    left: -200px;
+    top: 22px;
+    font-size: 16px;
+    color: white;
+    background-color: #517D14;
+    padding: 3px 11px;
     transition: all .5s ease;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 #check:checked ~ .sidebar{
@@ -119,7 +129,7 @@ label #cancel{
     pointer-events: none;
 }
 #check:checked ~ label #cancel{
-    left: 195px;
+    left: 208px;
 
 }
 
@@ -129,7 +139,7 @@ label #cancel{
     align-items: center;
     width: 90%;
     margin: auto;
-    height: 5vh;
+    height: 2.1rem;
     border: 1px solid #c3c3c3;
     border-radius: 10px;
     background-color: #f0f0f0;
@@ -185,7 +195,7 @@ label #cancel{
 
 
 .green{
-    margin-top: 3rem;
+    margin-top: 1rem;
     background-color: #517D14;
     padding-bottom: 4rem;
 }
@@ -196,8 +206,8 @@ label #cancel{
     font-size: 1.5rem;
 }
 .green > h4{
-    color: yellowgreen;
-    padding: 1rem .5rem .5rem;
+    color: #FFD200;
+    padding: 1rem .5rem 0rem 1rem;
     font-size: 1rem;
 }
 .green > p{
